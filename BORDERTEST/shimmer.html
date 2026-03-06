@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="shimmer.css">
+</head>
+<body>
+  <div class="skeleton">
+    <div class="skeleton-header">
+      <div class="skeleton-avatar"></div>
+      <div class="skeleton-header-text">
+        <div class="skeleton-line"></div>
+        <div class="skeleton-line"></div>
+      </div>
+    </div>
+    <div class="skeleton-body">
+      <div class="skeleton-line"></div>
+      <div class="skeleton-line"></div>
+      <div class="skeleton-line"></div>
+    </div>
+  </div>
+<div class="box">ghhhhhhhjjjjkkggggk</div>
+<script>
+ 
+const box = document.querySelector('.box');
+
+window.addEventListener('scroll', () => {
+  const rect = box.getBoundingClientRect();
+  if (rect.top < window.innerHeight) {
+    box.classList.add('animate');
+  }
+});
+
+
+  
+</script>
+</body>
+</html>

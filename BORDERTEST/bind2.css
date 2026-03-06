@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgba(24, 95, 183, 0.703);
+}
+fieldset{
+    /* position: relative; */
+    border-radius: 10px;
+    border-color: aliceblue
+    /* border: 2px solid green; */
+
+}
+.part-part{
+    display: flex;
+    position: absolute;
+/* border: 2px solid blue; */
+width: 100%;
+height: ;
+}
+legend{
+    /* border: 2px solid red; */
+
+}
+.part-part .party-m {
+    position: relative;
+display: flex;
+/* justify-content: flex-end; */
+top: -2rem;
+width: 19%;
+height: 2.1rem;
+/* border: 2px solid red ; */
+/* left: 0%; */
+left: 26rem;
+/* position: absolute; */
+/* border: 2px solid red; */
+/* overflow: hidden; */
+}
+.part-part .party-n {
+display: block;
+position: relative;
+/* justify-content: flex-end; */
+margin-left: 48.5%;
+width: 2.5rem;
+height: 17rem;
+top: -1rem;
+left: -16rem;
+/* border: 2px solid blue; */
+/* overflow: hidden; */
+}
+.part-part .party-n .binder-img-2{
+width: 100%;
+height: 15%;
+border-radius: 100%;
+margin-bottom: 2px;
+border: 2px solid green;
+}
+.part-part .party-m .binder-img-2{
+/* padding-top:1rem ; */
+width: ;
+border-radius: 100%;
+object-fit: cover;
+border: 2px solid blue;
+margin-left: 2px;
+}
+
+.part-part .party-m .binder-img-2 img{
+    width:100% ;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 2px solid rgb(255, 255, 255);
+}
+.part-part .party-n .binder-img-2 img{
+    width:100% ;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 2px solid rgb(240, 240, 235);
+
+}
+.part-part .party-img {
+    width: 100%;
+    height: 100%;
+}
+.party-img img {
+    width: 100%;
+    height: 100%;
+object-fit: cover;
+}
+.party-write{
+    position: relative;
+    top: 0rem;
+}
+nav{
+    display: flex;
+    position: relative;
+    overflow-y: hidden;
+    
+}
+.page1 {
+    flex: 1 1 25%;
+    /* background-color: red; */
+    /* height: 100vh; */
+}
+
+.page2 {
+    flex: 1 1 50%;
+    /* background-color: black; */
+    /* border: 2px solid red; */
+}
+.page3 {
+    flex: 1 1 25%;
+    /* background-color: blue; */
+}
+

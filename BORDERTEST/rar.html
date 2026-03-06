@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Example</title>
+</head>
+<body>
+<div class="controller">
+
+      <img src="image\20231028_113715.png" alt="">
+
+    </div>
+<!-- Your container div with an id -->
+<div id="yourContainerId"></div>
+
+<script>
+    // Your JavaScript code here
+
+    // Example using map with objects
+    const container = document.getElementById('yourContainerId');
+    const items = [
+        { id: 1, name: 'Item 1' },
+        { id: 2, name: 'Item 2' },
+        { id: 3, name: 'Item 3' }
+    ];
+
+    // Using map to create an array of HTML strings
+    const htmlArray = items.map(item => `<div>ID: ${item.id}, Name: ${item.name}</div>`);
+
+    // Joining the array and setting innerHTML of the container
+    container.innerHTML = htmlArray.join('');
+</script>
+
+</body>
+</html>

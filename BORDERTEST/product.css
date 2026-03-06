@@ -1,0 +1,20 @@
+.category-buttons {
+  margin-bottom: 20px;
+}
+
+.category-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.category-button:hover {
+  background-color: #3e8e41;
+}
+
+.product-list {
+  margin-top: 20px;
+}

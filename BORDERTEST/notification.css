@@ -1,0 +1,37 @@
+.note-top{
+  font-weight: bold;
+  font-size: 200%;
+  background: white;
+  padding: 0px 0px px 0px;
+}
+.notification{
+  border: 2px solid green;
+  
+}
+
+img{
+  border-radius: 50%;
+  width :20px;
+  
+  
+}
+.note-container{
+  
+
+  border: 2px solid red;
+  background-color: pink;
+  border: none;
+}
+ .notebox{
+   display: flex;
+   
+ }
+ .name{
+   margin-left: 2px;
+   font-weight: bold;
+   
+ }
+ .new{
+   padding-bottom: 0px;
+   font-size:50%;
+ }

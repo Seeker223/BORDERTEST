@@ -1,0 +1,104 @@
+.skeleton {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 300px;
+}
+
+.skeleton-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.skeleton-avatar {
+  background-color: #ddd;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.skeleton-header-text {
+  margin-left: 16px;
+}
+
+.skeleton-line {
+  background-color: #ddd;
+  border-radius: 4px;
+  height: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.skeleton-body {
+  margin-bottom: 16px;
+}
+
+/* Shimmer animation */
+.skeleton {
+  background: linear-gradient(to right, #ddd 8%, #fff 18%, #ddd 33%);
+  background-size: 1000px 104px;
+  animation: shimmer 2s linear infinite forwards;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+.box{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background: red;
+  animation: movef 6s linear infinite ;
+}
+@keyframes movef{
+  0%{
+    margin-left: 0%;
+  }
+  20%{
+    margin-top: 20%;
+    width: 150px;
+    height: 150px;
+  }
+  100%{
+    margin-left: 100%;
+  }
+}
+.box{
+  animation: movef 2s ease-in 1s infinite alternate;
+}
+
+@keyframes movef {
+  0% {
+    transform: translateX(0);
+  }
+  20%{
+    transform: translateY(30px);
+    background: blue;
+    padding: 4rem;
+  }
+  100% {
+    transform: translateX(300px);
+    background: yellow;
+  }
+}
+
+/*
+.box {
+  opacity: 0;
+  background: red;
+  transform: translateY(50px);
+  transition: opacity 1s, transform 1s;
+}
+
+.box.animate {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -1,0 +1,43 @@
+.top-list {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  height: 7.7vh;
+  background-color: var(--background-color);
+  background: var(--background);
+  scroll-behavior: smooth;
+  border: 2px solid;
+  border: none;
+ 
+  
+}
+.img-contain{
+  width:100%;
+  height:100%;
+  border: 4px solid white;
+  border:2px solid red;
+  border: none;
+  border-radius: 50%;
+  
+  
+}
+.img-contain video{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.silhouettes{
+  width:100%;
+  height:100%;
+  border: 4px solid white;
+  border:2px solid red;
+  border: none;
+  border-radius: 50%;
+}
+.silhouettes video {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   object-fit: contain;
+}

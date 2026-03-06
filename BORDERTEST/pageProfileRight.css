@@ -1,0 +1,45 @@
+.profile-right{
+  
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  flex: 1 10% ;
+  background-color: var(--profile-right-background-color);
+  height: 100%;
+  margin-top: 2px;
+  margin-left: 0.5rem;
+  width: ;
+  box-shadow: ;
+  z-index: 1000;
+  background:;
+}
+
+.profile-right .silhouettes{
+  
+  width:80%;
+  height:8%;
+  border: 4px solid white;
+  margin-bottom: 6%;
+  border:2px solid red;
+  border: none;
+  border-radius: 50%;
+  
+}
+.profile-right img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+  border: 2px solid var(--profile-right-border);
+  border: none;
+}
+.profile-right video{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile-right .silhouettes p{
+  position: relative;
+  top: -1rem;
+  
+}

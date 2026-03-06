@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  
+}
+section{
+  background-color: blue;
+  display: flex;
+}
+.caro{
+  flex: 1 70%;
+  display: flex;
+  overflow-x: scroll;
+  
+}
+.right{
+  flex: 1 30%;
+  background-color: greenyellow;
+}
+img{
+  border-radius: 50%;
+  border: 5px solid lightpink;
+}

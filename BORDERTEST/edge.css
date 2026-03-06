@@ -1,0 +1,92 @@
+
+  
+
+/*
+.select-ai {
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease-in-out;
+}
+
+.select-ai.show {
+  transform: scaleY(1);
+}
+*/
+
+.edge-child2{
+  display: none;
+}
+.Ai-container{
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  flex-flow: column-reverse;
+  color:linear-gradient(180deg, purple,#E91E83);
+  color: darkblue;
+  font-size: 4rem;
+  bottom: 4rem;
+  right :3rem;
+  z-index: 1000;
+}
+
+
+
+.select-ai{
+  display: none;
+  transform-origin: top;
+   transition: transform 0.3s ease-in-out;
+}
+.select-ai.show{
+  display: block;
+  background: linear-gradient(180deg,purple,#E91E83);
+  color: #fff;
+  height:10%;
+}
+
+.select-ai {
+  
+  display: none;
+}
+.select-A{
+  padding: 1rem;
+  background: red;
+  background: none;
+  color: linear-gradient(180deg,purple,#E91E83);
+  width: 20%;
+}
+/*
+.select-ai.show {
+  animation: fadeIn 0.5s forwards;
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+*/
+.select-ai p{
+  border: 2px solid red;
+  font-size: 20px;
+  border: none;
+  
+}
+
+.parag:hover{
+  background: white;
+  color: black;
+}
+Ai-container{
+  display: flex;
+}
+
+button{
+  
+}

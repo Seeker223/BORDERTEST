@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button{
+    background-color: red;
+    width: 20%;
+
+}
+.nav{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 100vh;
+}
+.nav.close{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 100vh;
+    display: none;
+}
+
+ul li{
+    padding: 10px;
+    background-color: skyblue;
+    margin-bottom: 12px;
+    border-radius: 17px;
+    list-style: none;
+    color: aliceblue;
+}
+ul li:first-child{
+    font-weight: 800;
+}

@@ -1,0 +1,27 @@
+
+
+<!-- icon.svg file content -->
+<svg width="24" height="24" viewBox="0 0 24 24">
+  <path d="M12 12L15 15 21 9" stroke="#fff" stroke-width="2" />
+</svg>
+
+Here is an example of an inline SVG icon for a "like" symbol:
+```
+<svg width="24" height="24" viewBox="0 0 24 24">
+  <path d="M19.1 7.5L12 14.4 5.9 7.5 4.5 9.1 12 16.6 19.5 9.1z" fill="#fff" />
+</svg>
+```
+This will render a white "like" icon (a thumbs up symbol). You can change the `fill` attribute to change the color of the icon.
+
+If you want to use it in a HTML file, you can add it inside a container, like a `div` or a `button`:
+```
+<div>
+  <!-- Like icon -->
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    <path d="M19.1 7.5L12 14.4 5.9 7.5 4.5 9.1 12 16.6 19.5 9.1z" fill="#fff" />
+  </svg>
+  <!-- Text -->
+  <span>Like</span>
+</div>
+```
+You can adjust the size and color of the icon as needed.

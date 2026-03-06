@@ -1,0 +1,21 @@
+   video{
+     object-fit: contain;
+      width: 100%;
+    /*  height: 70vh;*/
+    }
+    a:focus, a:active {
+    outline: none;
+    box-shadow: none;
+}
+    /*
+    .video-write{
+      
+      position: relative;
+      margin-bottom: 0;
+      white-space: none;
+      border: 2px solid red;
+      border: none;
+      top: ;
+      
+    }
+    */

@@ -1,0 +1,41 @@
+.profile-container {
+  border: 2px solid white;
+  background:;
+}
+
+.profile-details {
+  border: 2px solid white;
+background: ;
+}
+
+.story{
+  display: flex;
+  position: relative;
+  width:85vw;
+  height:27%;
+  background: white;
+  border-radius: 17px;
+  overflow-x: scroll ;
+  scroll-behavior: smooth;
+  z-index: 1000;
+}
+.story-1{
+  position: relative;
+  height: 100%;
+  width: 4;
+  background: red;
+  border-radius: 10px;
+  margin-left: 2px;
+  padding: 0 20px;
+  object-fit:cover;
+}
+
+.story-1 img{
+  background: blue;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url("/BORDERTEST/image/post-pics/1706909281688.jpg");
+  object-fit: cover;
+  background-position: center;
+}
