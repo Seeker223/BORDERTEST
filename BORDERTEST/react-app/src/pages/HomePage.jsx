@@ -1,5 +1,4 @@
 import { useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { feedPosts } from '../data/feedPosts';
 import { rightRailItems } from '../data/rightRailItems';
@@ -7,37 +6,7 @@ import { topStories } from '../data/topStories';
 import { useOffrolling } from '../hooks/useOffrolling';
 import { Feed } from '../components/Feed';
 import { RightRail } from '../components/RightRail';
-import { TopStories } from '../components/TopStories';
-
-const Shell = styled.main`
-  max-width: 1160px;
-  margin: 20px auto;
-  padding: 0 16px 24px;
-  display: grid;
-  gap: 14px;
-`;
-
-const Header = styled.header`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-`;
-
-const Brand = styled(Link)`
-  font-weight: 700;
-  letter-spacing: 0.4px;
-`;
-
-const Nav = styled.nav`
-  display: flex;
-  gap: 10px;
-`;
-
-const NavItem = styled(Link)`
-  color: ${({ theme }) => theme.colors.mutetext};
-  font-size: 0.9rem;
-`;
+import { AppFrame } from '../components/AppFrame';
 
 const Grid = styled.section`
   display: grid;
@@ -86,18 +55,7 @@ export function HomePage() {
   });
 
   return (
-    <Shell>
-      <Header>
-        <Brand to="/home">hender xender</Brand>
-        <Nav>
-          <NavItem to="/video">video</NavItem>
-          <NavItem to="/user-profile">profile</NavItem>
-          <NavItem to="/msg">msg</NavItem>
-        </Nav>
-      </Header>
-
-      <TopStories items={top} />
-
+    <AppFrame title="home" subtitle="Offrolling active" topItems={top}>
       <FilterRow>
         {['status', 'stato', 'utilities', 'apps'].map((value) => (
           <FilterButton
@@ -115,6 +73,6 @@ export function HomePage() {
         <Feed posts={feedPosts} offrollStamp={offrollStamp} />
         <RightRail items={filteredRight} onScroll={onScroll} />
       </Grid>
-    </Shell>
+    </AppFrame>
   );
 }
